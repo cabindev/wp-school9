@@ -4,18 +4,18 @@
  * Copy this file to wp-config.php and update the database settings
  */
 
-// ** MySQL settings - Update these for production ** //
+// ** MySQL settings - Production Database ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wp_u66do' );
+define( 'DB_NAME', 'wp_ohhpq' );
 
 /** MySQL database username */
-define( 'DB_USER', 'your_db_user' );
+define( 'DB_USER', 'wp_vh3cn' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'your_db_password' );
+define( 'DB_PASSWORD', 'your_production_password' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'localhost:3306' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -39,7 +39,7 @@ define('NONCE_SALT', ')3W@D/wS46#4o414M][0*x#R(/Xt)MqmW9R-S4u7eTG!94s/11B9pUCp!1
 /**
  * WordPress Database Table prefix.
  */
-$table_prefix = 'VVDBI_';
+$table_prefix = 'y3qJd3_';
 
 define('WP_ALLOW_MULTISITE', true);
 

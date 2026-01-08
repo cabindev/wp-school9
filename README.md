@@ -14,8 +14,15 @@ WordPress development environment for educational project.
 ### Production Deployment
 1. Upload files to server
 2. Copy `wp-config-production.php` to `wp-config.php`
-3. Update database credentials in `wp-config.php`
+3. Update database password in `wp-config.php`
 4. Import database and update URLs to production domain
+
+### Production Database Details
+- **Database**: `wp_ohhpq`
+- **Username**: `wp_vh3cn`
+- **Host**: `localhost:3306`
+- **Table Prefix**: `y3qJd3_`
+- **Domain**: `post.ที่โรงเรียนคำพ่อสอน.com`
 
 ### URLs
 - **Production**: https://post.xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com
