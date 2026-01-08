@@ -1,0 +1,62 @@
+# WordPress Configuration
+wp-config.php
+wp-config-local.php
+
+# Uploads and Cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+
+# WordPress Core Updates
+wp-admin/
+wp-includes/
+*.php
+!wp-content/
+
+# Override WordPress Core exclusion for wp-content
+!wp-content/themes/
+!wp-content/plugins/
+!wp-content/mu-plugins/
+
+# Logs and Debug
+*.log
+wp-content/debug.log
+error_log
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup Files
+*.bak
+*.backup
+*.sql
+*.tar.gz
+*.zip
+
+# Temporary Files
+wp-content/upgrade-temp-backup/
+wp-content/maintenance/
+
+# Plugin/Theme specific
+wp-content/plugins/akismet/
+wp-content/plugins/hello.php
+
+# Local development
+.env
+.env.local
+node_modules/
+npm-debug.log*

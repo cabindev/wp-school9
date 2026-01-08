@@ -1,0 +1,930 @@
+0000.000 (0) Opened log file at time: Thu, 11 Dec 2025 13:18:41 +0000 on https://xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.8 WP: 6.8.3 PHP: 8.3.28 (fpm-fcgi, Linux sdnthailand.com 5.15.0-161-generic #171-Ubuntu SMP Sat Oct 11 08:17:01 UTC 2025 x86_64) MySQL: 10.6.22-MariaDB-0ubuntu0.22.04.1 (max packet size=16777216) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.7M | 24M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 94787.7 MB
+0000.012 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.014 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.033 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1764369617, seconds_ago=1089504)
+0000.043 (0) Set semaphore last lock (fd) time to 2025-12-11 13:18:41
+0000.046 (0) Semaphore lock (fd) complete
+0000.057 (0) Backup run: resumption=0, nonce=458d54d1f481, file_nonce=458d54d1f481 begun at=1765459121 (0s ago), job type=backup
+0000.062 (0) Scheduling a resumption (1) after 300 seconds (1765459421) in case this run gets aborted
+0000.091 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2829, wp-includes/formatting.php)
+0000.094 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/:/tmp/) (line 188, wp-content/plugins/updraftplus/backup.php)
+0000.097 (0) Checking if we have a zip executable available
+0000.100 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/bin/zip) is not within the allowed path(s): (/var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/:/tmp/) (line 1825, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.103 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/bin/zip) is not within the allowed path(s): (/var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/:/tmp/) (line 1825, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.106 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/local/bin/zip) is not within the allowed path(s): (/var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/:/tmp/) (line 1825, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.108 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/sfw/bin/zip) is not within the allowed path(s): (/var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/:/tmp/) (line 1825, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.111 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/xdg4/bin/zip) is not within the allowed path(s): (/var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/:/tmp/) (line 1825, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.114 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/opt/bin/zip) is not within the allowed path(s): (/var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/:/tmp/) (line 1825, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.120 (0) Creation of backups of directories: beginning
+0000.129 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.133 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 420, wp-content/plugins/updraftplus/class-updraftplus.php)
+0003.039 (0) Total entities for the zip file: 3268 directories, 17338 files (0 skipped as non-modified), 257 MB
+0003.074 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.100 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.126 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.131 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.5 MB, 306 (306) files added so far); re-opening (prior size: 0 KB)
+0003.433 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 400 files added (on-disk size: 1986.6 KB)
+0003.469 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 500 files added (on-disk size: 1986.6 KB)
+0003.516 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 600 files added (on-disk size: 1986.6 KB)
+0003.559 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 700 files added (on-disk size: 1986.6 KB)
+0003.596 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 800 files added (on-disk size: 1986.6 KB)
+0003.633 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 900 files added (on-disk size: 1986.6 KB)
+0003.668 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 1000 files added (on-disk size: 1986.6 KB)
+0003.698 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 1100 files added (on-disk size: 1986.6 KB)
+0003.727 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 1200 files added (on-disk size: 1986.6 KB)
+0003.753 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 1300 files added (on-disk size: 1986.6 KB)
+0003.758 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.1 MB, 17338 files batched, 1001 (1307) added so far); re-opening (prior size: 1986.6 KB)
+0005.910 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 1400 files added (on-disk size: 7976.7 KB)
+0005.936 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 1500 files added (on-disk size: 7976.7 KB)
+0005.964 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 1600 files added (on-disk size: 7976.7 KB)
+0005.991 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 1700 files added (on-disk size: 7976.7 KB)
+0006.019 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 1800 files added (on-disk size: 7976.7 KB)
+0006.047 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 1900 files added (on-disk size: 7976.7 KB)
+0006.076 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 2000 files added (on-disk size: 7976.7 KB)
+0006.105 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 2100 files added (on-disk size: 7976.7 KB)
+0006.134 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 2200 files added (on-disk size: 7976.7 KB)
+0006.162 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 2300 files added (on-disk size: 7976.7 KB)
+0006.167 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.1 MB, 17338 files batched, 1001 (2308) added so far); re-opening (prior size: 7976.7 KB)
+0006.646 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 2400 files added (on-disk size: 10092.3 KB)
+0006.672 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 2500 files added (on-disk size: 10092.3 KB)
+0006.698 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 2600 files added (on-disk size: 10092.3 KB)
+0006.725 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 2700 files added (on-disk size: 10092.3 KB)
+0006.755 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 2800 files added (on-disk size: 10092.3 KB)
+0006.784 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 2900 files added (on-disk size: 10092.3 KB)
+0006.813 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 3000 files added (on-disk size: 10092.3 KB)
+0006.841 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 3100 files added (on-disk size: 10092.3 KB)
+0006.869 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 3200 files added (on-disk size: 10092.3 KB)
+0006.897 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 3300 files added (on-disk size: 10092.3 KB)
+0006.902 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.8 MB, 17338 files batched, 1001 (3309) added so far); re-opening (prior size: 10092.3 KB)
+0008.548 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 3400 files added (on-disk size: 14530.8 KB)
+0008.576 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 3500 files added (on-disk size: 14530.8 KB)
+0008.603 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 3600 files added (on-disk size: 14530.8 KB)
+0008.631 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 3700 files added (on-disk size: 14530.8 KB)
+0008.660 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 3800 files added (on-disk size: 14530.8 KB)
+0008.692 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 3900 files added (on-disk size: 14530.8 KB)
+0008.721 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 4000 files added (on-disk size: 14530.8 KB)
+0008.747 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 4100 files added (on-disk size: 14530.8 KB)
+0008.773 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 4200 files added (on-disk size: 14530.8 KB)
+0008.804 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 4300 files added (on-disk size: 14530.8 KB)
+0008.810 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.7 MB, 17338 files batched, 1001 (4310) added so far); re-opening (prior size: 14530.8 KB)
+0009.768 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 4400 files added (on-disk size: 17335.9 KB)
+0009.797 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 4500 files added (on-disk size: 17335.9 KB)
+0009.829 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 4600 files added (on-disk size: 17335.9 KB)
+0009.875 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 4700 files added (on-disk size: 17335.9 KB)
+0009.912 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 4800 files added (on-disk size: 17335.9 KB)
+0009.947 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 4900 files added (on-disk size: 17335.9 KB)
+0009.978 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 5000 files added (on-disk size: 17335.9 KB)
+0010.005 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 5100 files added (on-disk size: 17335.9 KB)
+0010.033 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 5200 files added (on-disk size: 17335.9 KB)
+0010.061 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 5300 files added (on-disk size: 17335.9 KB)
+0010.066 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.8 MB, 17338 files batched, 1001 (5311) added so far); re-opening (prior size: 17335.9 KB)
+0010.897 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 5400 files added (on-disk size: 20939.3 KB)
+0010.924 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 5500 files added (on-disk size: 20939.3 KB)
+0010.950 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 5600 files added (on-disk size: 20939.3 KB)
+0010.980 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 5700 files added (on-disk size: 20939.3 KB)
+0011.011 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 5800 files added (on-disk size: 20939.3 KB)
+0011.041 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 5900 files added (on-disk size: 20939.3 KB)
+0011.071 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 6000 files added (on-disk size: 20939.3 KB)
+0011.098 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 6100 files added (on-disk size: 20939.3 KB)
+0011.125 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 6200 files added (on-disk size: 20939.3 KB)
+0011.153 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 6300 files added (on-disk size: 20939.3 KB)
+0011.159 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.7 MB, 17338 files batched, 1001 (6312) added so far); re-opening (prior size: 20939.3 KB)
+0012.671 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 6400 files added (on-disk size: 32324.7 KB)
+0012.703 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 6500 files added (on-disk size: 32324.7 KB)
+0012.733 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 6600 files added (on-disk size: 32324.7 KB)
+0012.762 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 6700 files added (on-disk size: 32324.7 KB)
+0012.792 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 6800 files added (on-disk size: 32324.7 KB)
+0012.821 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 6900 files added (on-disk size: 32324.7 KB)
+0012.849 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 7000 files added (on-disk size: 32324.7 KB)
+0012.876 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 7100 files added (on-disk size: 32324.7 KB)
+0012.904 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 7200 files added (on-disk size: 32324.7 KB)
+0012.931 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 7300 files added (on-disk size: 32324.7 KB)
+0012.937 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.9 MB, 17338 files batched, 1001 (7313) added so far); re-opening (prior size: 32324.7 KB)
+0014.790 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 7400 files added (on-disk size: 37924.5 KB)
+0014.820 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 7500 files added (on-disk size: 37924.5 KB)
+0014.849 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 7600 files added (on-disk size: 37924.5 KB)
+0014.878 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 7700 files added (on-disk size: 37924.5 KB)
+0014.906 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 7800 files added (on-disk size: 37924.5 KB)
+0014.935 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 7900 files added (on-disk size: 37924.5 KB)
+0014.963 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 8000 files added (on-disk size: 37924.5 KB)
+0014.991 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 8100 files added (on-disk size: 37924.5 KB)
+0015.019 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 8200 files added (on-disk size: 37924.5 KB)
+0015.049 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 8300 files added (on-disk size: 37924.5 KB)
+0015.056 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.1 MB, 17338 files batched, 1001 (8314) added so far); re-opening (prior size: 37924.5 KB)
+0016.275 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 8400 files added (on-disk size: 47159.7 KB)
+0016.304 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 8500 files added (on-disk size: 47159.7 KB)
+0016.333 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 8600 files added (on-disk size: 47159.7 KB)
+0016.361 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 8700 files added (on-disk size: 47159.7 KB)
+0016.393 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 8800 files added (on-disk size: 47159.7 KB)
+0016.422 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 8900 files added (on-disk size: 47159.7 KB)
+0016.452 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 9000 files added (on-disk size: 47159.7 KB)
+0016.485 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 9100 files added (on-disk size: 47159.7 KB)
+0016.519 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 9200 files added (on-disk size: 47159.7 KB)
+0016.556 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 9300 files added (on-disk size: 47159.7 KB)
+0016.564 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.5 MB, 17338 files batched, 1001 (9315) added so far); re-opening (prior size: 47159.7 KB)
+0018.420 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 9400 files added (on-disk size: 49804.7 KB)
+0018.453 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 9500 files added (on-disk size: 49804.7 KB)
+0018.488 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 9600 files added (on-disk size: 49804.7 KB)
+0018.521 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 9700 files added (on-disk size: 49804.7 KB)
+0018.558 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 9800 files added (on-disk size: 49804.7 KB)
+0018.591 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 9900 files added (on-disk size: 49804.7 KB)
+0018.625 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 10000 files added (on-disk size: 49804.7 KB)
+0018.659 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 10100 files added (on-disk size: 49804.7 KB)
+0018.693 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 10200 files added (on-disk size: 49804.7 KB)
+0018.727 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 10300 files added (on-disk size: 49804.7 KB)
+0018.735 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.3 MB, 17338 files batched, 1001 (10316) added so far); re-opening (prior size: 49804.7 KB)
+0019.429 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 10400 files added (on-disk size: 51042.6 KB)
+0019.464 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 10500 files added (on-disk size: 51042.6 KB)
+0019.498 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 10600 files added (on-disk size: 51042.6 KB)
+0019.537 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 10700 files added (on-disk size: 51042.6 KB)
+0019.576 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 10800 files added (on-disk size: 51042.6 KB)
+0019.610 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 10900 files added (on-disk size: 51042.6 KB)
+0019.642 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 11000 files added (on-disk size: 51042.6 KB)
+0019.675 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 11100 files added (on-disk size: 51042.6 KB)
+0019.707 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 11200 files added (on-disk size: 51042.6 KB)
+0019.739 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 11300 files added (on-disk size: 51042.6 KB)
+0019.747 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3 MB, 17338 files batched, 1001 (11317) added so far); re-opening (prior size: 51042.6 KB)
+0020.366 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 11400 files added (on-disk size: 52025.4 KB)
+0020.398 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 11500 files added (on-disk size: 52025.4 KB)
+0020.430 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 11600 files added (on-disk size: 52025.4 KB)
+0020.462 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 11700 files added (on-disk size: 52025.4 KB)
+0020.494 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 11800 files added (on-disk size: 52025.4 KB)
+0020.525 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 11900 files added (on-disk size: 52025.4 KB)
+0020.552 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 12000 files added (on-disk size: 52025.4 KB)
+0020.581 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 12100 files added (on-disk size: 52025.4 KB)
+0020.608 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 12200 files added (on-disk size: 52025.4 KB)
+0020.634 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 12300 files added (on-disk size: 52025.4 KB)
+0020.642 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.1 MB, 17338 files batched, 1001 (12318) added so far); re-opening (prior size: 52025.4 KB)
+0021.675 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 12400 files added (on-disk size: 55079.2 KB)
+0021.702 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 12500 files added (on-disk size: 55079.2 KB)
+0021.730 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 12600 files added (on-disk size: 55079.2 KB)
+0021.757 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 12700 files added (on-disk size: 55079.2 KB)
+0021.782 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 12800 files added (on-disk size: 55079.2 KB)
+0021.815 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 12900 files added (on-disk size: 55079.2 KB)
+0021.840 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 13000 files added (on-disk size: 55079.2 KB)
+0021.877 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 13100 files added (on-disk size: 55079.2 KB)
+0021.913 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 13200 files added (on-disk size: 55079.2 KB)
+0021.949 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 13300 files added (on-disk size: 55079.2 KB)
+0021.958 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.3 MB, 17338 files batched, 1001 (13319) added so far); re-opening (prior size: 55079.2 KB)
+0023.112 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 13400 files added (on-disk size: 60825.9 KB)
+0023.147 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 13500 files added (on-disk size: 60825.9 KB)
+0023.179 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 13600 files added (on-disk size: 60825.9 KB)
+0023.212 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 13700 files added (on-disk size: 60825.9 KB)
+0023.244 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 13800 files added (on-disk size: 60825.9 KB)
+0023.270 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 13900 files added (on-disk size: 60825.9 KB)
+0023.298 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 14000 files added (on-disk size: 60825.9 KB)
+0023.331 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 14100 files added (on-disk size: 60825.9 KB)
+0023.369 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 14200 files added (on-disk size: 60825.9 KB)
+0023.402 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 14300 files added (on-disk size: 60825.9 KB)
+0023.411 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.4 MB, 17338 files batched, 1001 (14320) added so far); re-opening (prior size: 60825.9 KB)
+0024.572 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 14400 files added (on-disk size: 65767.4 KB)
+0024.609 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 14500 files added (on-disk size: 65767.4 KB)
+0024.642 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 14600 files added (on-disk size: 65767.4 KB)
+0024.671 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 14700 files added (on-disk size: 65767.4 KB)
+0024.706 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 14800 files added (on-disk size: 65767.4 KB)
+0024.737 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 14900 files added (on-disk size: 65767.4 KB)
+0024.765 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 15000 files added (on-disk size: 65767.4 KB)
+0024.773 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.6 MB, 17338 files batched, 698 (15018) added so far); re-opening (prior size: 65767.4 KB)
+0026.772 (0) A useful amount of data was added after this amount of zip processing: 2.6 s (normalised: 2.6 s, rate: 9919.2 KB/s)
+0026.778 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.6415209770203, normalised_time=2.580842566745, max_time=26.7750248909, data points known=1, old_max_bytes=26214400, new_max_bytes=163177224)
+0026.852 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 15100 files added (on-disk size: 74347.6 KB)
+0026.882 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 15200 files added (on-disk size: 74347.6 KB)
+0026.913 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 15300 files added (on-disk size: 74347.6 KB)
+0026.939 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 15400 files added (on-disk size: 74347.6 KB)
+0026.974 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 15500 files added (on-disk size: 74347.6 KB)
+0027.002 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 15600 files added (on-disk size: 74347.6 KB)
+0027.029 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 15700 files added (on-disk size: 74347.6 KB)
+0027.055 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 15800 files added (on-disk size: 74347.6 KB)
+0027.086 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 15900 files added (on-disk size: 74347.6 KB)
+0027.114 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 16000 files added (on-disk size: 74347.6 KB)
+0027.122 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (32.9 MB, 17338 files batched, 1001 (16019) added so far); re-opening (prior size: 74347.6 KB)
+0029.472 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 16100 files added (on-disk size: 81831.3 KB)
+0029.500 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 16200 files added (on-disk size: 81831.3 KB)
+0029.529 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 16300 files added (on-disk size: 81831.3 KB)
+0029.568 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 16400 files added (on-disk size: 81831.3 KB)
+0029.600 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 16500 files added (on-disk size: 81831.3 KB)
+0029.630 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 16600 files added (on-disk size: 81831.3 KB)
+0029.667 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 16700 files added (on-disk size: 81831.3 KB)
+0029.701 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 16800 files added (on-disk size: 81831.3 KB)
+0029.727 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 16900 files added (on-disk size: 81831.3 KB)
+0029.755 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 17000 files added (on-disk size: 81831.3 KB)
+0029.763 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.7 MB, 17338 files batched, 1001 (17020) added so far); re-opening (prior size: 81831.3 KB)
+0030.786 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 17100 files added (on-disk size: 83651.4 KB)
+0030.813 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 17200 files added (on-disk size: 83651.4 KB)
+0030.842 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.tmp: 17300 files added (on-disk size: 83651.4 KB)
+0032.031 (0) Creating zip file manifest (backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.list-temp.tmp)
+0032.075 (0) Successfully created zip file manifest (size: 1547377)
+0032.813 (0) Created plugins zip (0) - 87655.1 KB in 32.7 s (2682.7 KB/s) (sha1: 3b2a2091ab6880d0d1859a5c7708a139da59e15e, sha256: 4fc6a3881879d95fb8230d3e24e1712bfb8fa873975a74555c0d0eb69bc30493)
+0032.833 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0032.836 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9a54b421895ea751fabc94c0ffe26081)
+0035.252 (0) Google Drive: quota usage: used=5605.4 MB, total=15360 MB, available=9754.6 MB
+0035.255 (0) Google Drive: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip: Attempting to upload to Google Drive (into folder id: 1HyN8zfJkjw-ipU-MgcK5j00RVfLDp8lL)
+0037.104 (0) Googledrive chunked upload: 1.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 22.6 / 30)
+0037.459 (0) Googledrive chunked upload: 3.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 22.6 / 30)
+0037.773 (0) Googledrive chunked upload: 8.2 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 22.6 / 30)
+0038.215 (0) Googledrive chunked upload: 17.5 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 22.6 / 30)
+0038.761 (0) Googledrive chunked upload: 36.2 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 22.6 / 30)
+0039.990 (0) Googledrive chunked upload: 73.6 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 22.6 / 30)
+0042.667 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0042.675 (0) Google Drive: OK: Archive backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip uploaded in 7.42 seconds
+0042.678 (0) Recording as successfully uploaded: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip
+0042.697 (0) Deleting local file: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip: OK
+0042.710 (0) Beginning creation of dump of themes (split every: 400 MB)
+0042.714 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 420, wp-content/plugins/updraftplus/class-updraftplus.php)
+0043.077 (0) Total entities for the zip file: 376 directories, 1993 files (0 skipped as non-modified), 38.5 MB
+0043.104 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0043.132 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0043.161 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0043.189 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0043.217 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0043.245 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0043.279 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0043.316 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0043.351 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0043.384 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0043.387 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.1 MB, 1993 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0044.188 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 1100 files added (on-disk size: 10107.3 KB)
+0044.225 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 1200 files added (on-disk size: 10107.3 KB)
+0044.259 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 1300 files added (on-disk size: 10107.3 KB)
+0044.294 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 1400 files added (on-disk size: 10107.3 KB)
+0044.327 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 1500 files added (on-disk size: 10107.3 KB)
+0044.358 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 1600 files added (on-disk size: 10107.3 KB)
+0044.389 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 1700 files added (on-disk size: 10107.3 KB)
+0044.415 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 1800 files added (on-disk size: 10107.3 KB)
+0044.442 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.tmp: 1900 files added (on-disk size: 10107.3 KB)
+0046.369 (0) Creating zip file manifest (backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.list-temp.tmp)
+0046.378 (0) Successfully created zip file manifest (size: 158629)
+0046.578 (0) Created themes zip (0) - 22783.4 KB in 3.9 s (5906 KB/s) (sha1: 14ab4abd6d312c90064be339bc7c8b6d55298257, sha256: f20dd9542dabefc69f739f83c51e58f94af68aed10060ce91dd53adf11ec23af)
+0046.588 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0046.591 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9a54b421895ea751fabc94c0ffe26081)
+0047.057 (0) Google Drive: quota usage: used=5691 MB, total=15360 MB, available=9669 MB
+0047.061 (0) Google Drive: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip: Attempting to upload to Google Drive (into folder id: 1HyN8zfJkjw-ipU-MgcK5j00RVfLDp8lL)
+0048.342 (0) Googledrive chunked upload: 4.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 19.8 / 30)
+0048.695 (0) Googledrive chunked upload: 13.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.8 / 30)
+0049.091 (0) Googledrive chunked upload: 31.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 19.8 / 30)
+0049.507 (0) Googledrive chunked upload: 67.4 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 19.8 / 30)
+0051.722 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0051.731 (0) Google Drive: OK: Archive backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip uploaded in 4.67 seconds
+0051.734 (0) Recording as successfully uploaded: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip
+0051.743 (0) Deleting local file: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip: OK
+0051.753 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0051.756 (0) Looking for candidates to backup in: /var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/httpdocs/wp-content/uploads
+0051.759 (0) finding files: 2025: adding to list (1)
+0051.761 (0) finding files: premium-addons-elementor: adding to list (2)
+0051.764 (0) finding files: 2021: adding to list (3)
+0051.767 (0) finding files: generateblocks: adding to list (4)
+0051.770 (0) finding files: squirrly: adding to list (5)
+0051.773 (0) finding files: 2022: adding to list (6)
+0051.775 (0) finding files: wp-statistics: adding to list (7)
+0051.778 (0) finding files: wpcf7_uploads: adding to list (8)
+0051.781 (0) finding files: 2020: adding to list (9)
+0051.783 (0) finding files: presto-player-private: adding to list (10)
+0051.786 (0) finding files: wp_encryption: adding to list (11)
+0051.789 (0) finding files: astra-sites: adding to list (12)
+0051.792 (0) finding files: 2018: adding to list (13)
+0051.794 (0) finding files: elementor: adding to list (14)
+0051.797 (0) finding files: 2024: adding to list (15)
+0051.800 (0) finding files: ast-block-templates-json: adding to list (16)
+0051.802 (0) finding files: ai-builder: adding to list (17)
+0051.805 (0) finding files: 2023: adding to list (18)
+0051.808 (0) finding files: uag-plugin: adding to list (19)
+0051.810 (0) finding files: qubely: adding to list (20)
+0051.813 (0) finding files: wpforms: adding to list (21)
+0051.816 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0051.819 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 420, wp-content/plugins/updraftplus/class-updraftplus.php)
+0052.255 (0) Total entities for the zip file: 96 directories, 3777 files (0 skipped as non-modified), 951.6 MB
+0052.281 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0052.306 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0052.331 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0052.349 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 155.6 MB added on this batch (168 MB, 3777 files batched, 370 (370) added so far); re-opening (prior size: 0 KB)
+0057.898 (0) A useful amount of data was added after this amount of zip processing: 6.8 s (normalised: 6.3 s, rate: 25416.9 KB/s)
+0057.915 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 400 files added (on-disk size: 168485.1 KB)
+0057.941 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 500 files added (on-disk size: 168485.1 KB)
+0057.971 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 600 files added (on-disk size: 168485.1 KB)
+0057.996 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 700 files added (on-disk size: 168485.1 KB)
+0058.021 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 800 files added (on-disk size: 168485.1 KB)
+0058.046 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 900 files added (on-disk size: 168485.1 KB)
+0058.071 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 1000 files added (on-disk size: 168485.1 KB)
+0058.096 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 1100 files added (on-disk size: 168485.1 KB)
+0058.124 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 1200 files added (on-disk size: 168485.1 KB)
+0058.141 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 155.6 MB added on this batch (155.7 MB, 3777 files batched, 894 (1264) added so far); re-opening (prior size: 168485.1 KB)
+0061.029 (0) A useful amount of data was added after this amount of zip processing: 3.9 s (normalised: 3.9 s, rate: 40897.1 KB/s)
+0061.035 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.8985459804535, normalised_time=3.8964300812032, max_time=61.031919956207, data points known=1, old_max_bytes=163177224, new_max_bytes=209715200)
+0061.053 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 1300 files added (on-disk size: 325697.1 KB)
+0061.078 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 1400 files added (on-disk size: 325697.1 KB)
+0061.103 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.tmp: 1500 files added (on-disk size: 325697.1 KB)
+0061.111 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (75.5 MB, 259 (1523) files added so far); last ratio: 0.986; re-opening (prior size: 325697.1 KB)
+0063.850 (0) Zip size is at/near split limit (388.5 MB / 400 MB) - bumping index (from: 0)
+0067.104 (0) Creating zip file manifest (backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.list-temp.tmp)
+0067.111 (0) Successfully created zip file manifest (size: 137867)
+0067.117 (0) Created uploads zip (0) - 397834.2 KB in 12 s (33068.4 KB/s) (checksums: sha1: ec0b049459f9f9a60290168496ffcb04c2bd0c5b, sha256: ca60d5c08b1c25c179e5de92d420de54c90ead215379d581cf6081edb225ff94)
+0067.134 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0067.137 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9a54b421895ea751fabc94c0ffe26081)
+0067.576 (0) Google Drive: quota usage: used=5713.3 MB, total=15360 MB, available=9646.7 MB
+0067.579 (0) Google Drive: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip: Attempting to upload to Google Drive (into folder id: 1HyN8zfJkjw-ipU-MgcK5j00RVfLDp8lL)
+0068.842 (0) Googledrive chunked upload: 0.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 20.9 / 30)
+0069.062 (0) Googledrive chunked upload: 0.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 20.9 / 30)
+0069.580 (0) Googledrive chunked upload: 1.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 20.9 / 30)
+0069.989 (0) Googledrive chunked upload: 3.9 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 20.9 / 30)
+0070.556 (0) Googledrive chunked upload: 8 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 20.9 / 30)
+0071.418 (0) Googledrive chunked upload: 16.2 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 20.9 / 30)
+0073.497 (0) Googledrive chunked upload: 32.7 % uploaded (133169152)
+0075.481 (0) Googledrive chunked upload: 49.2 % uploaded (200278016)
+0077.621 (0) Googledrive chunked upload: 65.6 % uploaded (267386880)
+0080.000 (0) Googledrive chunked upload: 82.1 % uploaded (334495744)
+0082.849 (0) Googledrive chunked upload: 98.6 % uploaded (401604608)
+0084.932 (0) Googledrive chunked upload: 100 % uploaded (401604608)
+0084.940 (0) Google Drive: OK: Archive backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip uploaded in 17.36 seconds
+0084.943 (0) Recording as successfully uploaded: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip
+0085.015 (0) Deleting local file: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip: OK
+0085.022 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1524) files added so far); re-opening (prior size: 0 KB)
+0085.046 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 1600 files added (on-disk size: 25.2 KB)
+0085.070 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 1700 files added (on-disk size: 25.2 KB)
+0085.095 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 1800 files added (on-disk size: 25.2 KB)
+0085.120 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 1900 files added (on-disk size: 25.2 KB)
+0085.144 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 2000 files added (on-disk size: 25.2 KB)
+0085.169 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 2100 files added (on-disk size: 25.2 KB)
+0085.194 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 2200 files added (on-disk size: 25.2 KB)
+0085.209 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 200 MB added on this batch (225.6 MB, 3777 files batched, 730 (2254) added so far); re-opening (prior size: 25.2 KB)
+0096.374 (0) A useful amount of data was added after this amount of zip processing: 12.2 s (normalised: 10.9 s, rate: 18867.6 KB/s)
+0096.395 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 2300 files added (on-disk size: 204319.6 KB)
+0096.421 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 2400 files added (on-disk size: 204319.6 KB)
+0096.446 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 2500 files added (on-disk size: 204319.6 KB)
+0096.471 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 2600 files added (on-disk size: 204319.6 KB)
+0096.496 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 2700 files added (on-disk size: 204319.6 KB)
+0096.521 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 2800 files added (on-disk size: 204319.6 KB)
+0096.546 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 2900 files added (on-disk size: 204319.6 KB)
+0096.571 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 3000 files added (on-disk size: 204319.6 KB)
+0096.595 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 3100 files added (on-disk size: 204319.6 KB)
+0096.620 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.tmp: 3200 files added (on-disk size: 204319.6 KB)
+0096.630 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 200 MB added on this batch (210.4 MB, 3777 files batched, 978 (3232) added so far); re-opening (prior size: 204319.6 KB)
+0102.374 (0) A useful amount of data was added after this amount of zip processing: 6.2 s (normalised: 5.9 s, rate: 34506.6 KB/s)
+0102.381 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=6.2431790828705, normalised_time=5.9351043717943, max_time=102.3804910183, data points known=1, max_bytes=209715200)
+0102.388 (0) Zip size is at/near split limit (391.1 MB / 400 MB) - bumping index (from: 1)
+0105.670 (0) Creating zip file manifest (backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.list-temp.tmp)
+0105.678 (0) Successfully created zip file manifest (size: 166832)
+0105.684 (0) Created uploads zip (1) - 400486.5 KB in 35.3 s (11354.7 KB/s) (checksums: sha1: 92f32f2541d96a1572fdb421770bbc9ac085c560, sha256: 643fa20b937689d2e9c77b5b0cc12ff86cca750c89c855dba366360948ade55c)
+0105.699 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0105.702 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9a54b421895ea751fabc94c0ffe26081)
+0106.187 (0) Google Drive: quota usage: used=6101.8 MB, total=15360 MB, available=9258.2 MB
+0106.191 (0) Google Drive: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1HyN8zfJkjw-ipU-MgcK5j00RVfLDp8lL)
+0107.345 (0) Googledrive chunked upload: 0.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 20.9 / 30)
+0107.629 (0) Googledrive chunked upload: 0.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 20.9 / 30)
+0108.125 (0) Googledrive chunked upload: 1.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 20.9 / 30)
+0108.505 (0) Googledrive chunked upload: 3.8 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 20.9 / 30)
+0109.164 (0) Googledrive chunked upload: 7.9 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 20.9 / 30)
+0110.504 (0) Googledrive chunked upload: 16.1 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 20.9 / 30)
+0113.431 (0) Googledrive chunked upload: 32.5 % uploaded (133169152)
+0117.148 (0) Googledrive chunked upload: 48.8 % uploaded (200278016)
+0119.192 (0) Googledrive chunked upload: 65.2 % uploaded (267386880)
+0121.160 (0) Googledrive chunked upload: 81.6 % uploaded (334495744)
+0123.541 (0) Googledrive chunked upload: 97.9 % uploaded (401604608)
+0125.712 (0) Googledrive chunked upload: 100 % uploaded (401604608)
+0125.722 (0) Google Drive: OK: Archive backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip uploaded in 19.53 seconds
+0125.724 (0) Recording as successfully uploaded: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip
+0125.796 (0) Deleting local file: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip: OK
+0125.804 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 1 (3233) files added so far); re-opening (prior size: 0 KB)
+0125.835 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads3.zip.tmp: 3300 files added (on-disk size: 162.6 KB)
+0125.861 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads3.zip.tmp: 3400 files added (on-disk size: 162.6 KB)
+0125.891 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads3.zip.tmp: 3500 files added (on-disk size: 162.6 KB)
+0125.920 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads3.zip.tmp: 3600 files added (on-disk size: 162.6 KB)
+0125.946 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads3.zip.tmp: 3700 files added (on-disk size: 162.6 KB)
+0128.855 (0) Creating zip file manifest (backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads3.zip.list-temp.tmp)
+0128.861 (0) Successfully created zip file manifest (size: 50660)
+0129.829 (0) Created uploads zip (2) - 112236.2 KB in 24.1 s (4649.6 KB/s) (sha1: 312e75abc23bf2608bd5970e755c6529ccf7ff25, sha256: ed97be9fd1e403caa175dfc027414b9c8338992c369e68912d95bbfc0ac41774)
+0129.839 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0129.841 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9a54b421895ea751fabc94c0ffe26081)
+0130.287 (0) Google Drive: quota usage: used=6492.9 MB, total=15360 MB, available=8867.1 MB
+0130.290 (0) Google Drive: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads3.zip: Attempting to upload to Google Drive (into folder id: 1HyN8zfJkjw-ipU-MgcK5j00RVfLDp8lL)
+0131.505 (0) Googledrive chunked upload: 0.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 19.6 / 30)
+0131.869 (0) Googledrive chunked upload: 2.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.6 / 30)
+0132.248 (0) Googledrive chunked upload: 6.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 19.6 / 30)
+0132.565 (0) Googledrive chunked upload: 13.7 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 19.6 / 30)
+0133.103 (0) Googledrive chunked upload: 28.3 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 19.6 / 30)
+0135.566 (0) Googledrive chunked upload: 57.5 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 19.6 / 30)
+0139.002 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0139.011 (0) Google Drive: OK: Archive backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads3.zip uploaded in 8.72 seconds
+0139.013 (0) Recording as successfully uploaded: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads3.zip
+0139.043 (0) Deleting local file: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads3.zip: OK
+0139.054 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0139.056 (0) Does not exist: /var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/httpdocs/wp-content/mu-plugins
+0139.059 (0) There are no mu-plugins to backup. Will not raise an error.
+0139.062 (0) mu-plugins: create_zip returned an error
+0139.067 (0) Beginning backup of other directories found in the content directory (index: 0)
+0139.070 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0139.073 (0) Looking for candidates to backup in: /var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/httpdocs/wp-content
+0139.075 (0) finding files: index.php: adding to list (1)
+0139.078 (0) finding files: maintenance: adding to list (2)
+0139.081 (0) finding files: upgrade: skipping: excluded by options
+0139.083 (0) finding files: upgrade-temp-backup: adding to list (3)
+0139.086 (0) finding files: languages: adding to list (4)
+0139.089 (0) finding files: uploads: skipping: this is the uploads directory
+0139.091 (0) finding files: maintenance.php: adding to list (5)
+0139.094 (0) finding files: themes: skipping: this is the themes directory
+0139.097 (0) finding files: plugins: skipping: this is the plugins directory
+0139.099 (0) finding files: updraft: skipping: this is the updraft directory
+0139.102 (0) finding files: astra-local-fonts: adding to list (6)
+0139.106 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 420, wp-content/plugins/updraftplus/class-updraftplus.php)
+0139.716 (0) Total entities for the zip file: 714 directories, 2942 files (0 skipped as non-modified), 63.4 MB
+0139.748 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0139.778 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0139.808 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0139.837 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0139.867 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0139.897 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0139.925 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 700 files added (on-disk size: 0 KB)
+0139.955 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 800 files added (on-disk size: 0 KB)
+0139.984 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 900 files added (on-disk size: 0 KB)
+0140.010 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0140.014 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (34.8 MB, 2942 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0142.021 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 1100 files added (on-disk size: 14363.9 KB)
+0142.047 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 1200 files added (on-disk size: 14363.9 KB)
+0142.084 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 1300 files added (on-disk size: 14363.9 KB)
+0142.122 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 1400 files added (on-disk size: 14363.9 KB)
+0142.160 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 1500 files added (on-disk size: 14363.9 KB)
+0142.197 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 1600 files added (on-disk size: 14363.9 KB)
+0142.233 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 1700 files added (on-disk size: 14363.9 KB)
+0142.267 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 1800 files added (on-disk size: 14363.9 KB)
+0142.301 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 1900 files added (on-disk size: 14363.9 KB)
+0142.334 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 2000 files added (on-disk size: 14363.9 KB)
+0142.338 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.6 MB, 2942 files batched, 1001 (2002) added so far); re-opening (prior size: 14363.9 KB)
+0143.305 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 2100 files added (on-disk size: 16652.3 KB)
+0143.335 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 2200 files added (on-disk size: 16652.3 KB)
+0143.368 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 2300 files added (on-disk size: 16652.3 KB)
+0143.409 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 2400 files added (on-disk size: 16652.3 KB)
+0143.443 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 2500 files added (on-disk size: 16652.3 KB)
+0143.478 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 2600 files added (on-disk size: 16652.3 KB)
+0143.516 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 2700 files added (on-disk size: 16652.3 KB)
+0143.551 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 2800 files added (on-disk size: 16652.3 KB)
+0143.578 (0) Zip: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.tmp: 2900 files added (on-disk size: 16652.3 KB)
+0145.317 (0) Creating zip file manifest (backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.list-temp.tmp)
+0145.327 (0) Successfully created zip file manifest (size: 339485)
+0145.539 (0) Created others zip (0) - 23789.6 KB in 6.4 s (3701.8 KB/s) (sha1: 7a64910f68ed3b11ab7f80f58a3f9f215b0448e0, sha256: 87b7a389063a6197968049f4a5a745c70bd487f590b61bd2ea71b793b08732c5)
+0145.550 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0145.553 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9a54b421895ea751fabc94c0ffe26081)
+0146.046 (0) Google Drive: quota usage: used=6602.5 MB, total=15360 MB, available=8757.5 MB
+0146.050 (0) Google Drive: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip: Attempting to upload to Google Drive (into folder id: 1HyN8zfJkjw-ipU-MgcK5j00RVfLDp8lL)
+0147.327 (0) Googledrive chunked upload: 4.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 20.1 / 30)
+0147.596 (0) Googledrive chunked upload: 12.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 20.1 / 30)
+0147.979 (0) Googledrive chunked upload: 30.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 20.1 / 30)
+0148.318 (0) Googledrive chunked upload: 64.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 20.1 / 30)
+0150.175 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0150.184 (0) Google Drive: OK: Archive backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip uploaded in 4.13 seconds
+0150.187 (0) Recording as successfully uploaded: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip
+0150.197 (0) Deleting local file: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip: OK
+0150.214 (0) Saving backup status to database (elements: 10)
+0150.226 (0) Beginning creation of database dump (WordPress DB)
+0150.229 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0150.235 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/:/tmp/) (line 1708, wp-content/plugins/updraftplus/class-updraftplus.php)
+0150.238 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/:/tmp/) (line 1708, wp-content/plugins/updraftplus/class-updraftplus.php)
+0150.241 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/local/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/:/tmp/) (line 1708, wp-content/plugins/updraftplus/class-updraftplus.php)
+0150.244 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/sfw/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/:/tmp/) (line 1708, wp-content/plugins/updraftplus/class-updraftplus.php)
+0150.247 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/xdg4/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/:/tmp/) (line 1708, wp-content/plugins/updraftplus/class-updraftplus.php)
+0150.250 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/opt/bin/mysqldump) is not within the allowed path(s): (/var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/:/tmp/) (line 1708, wp-content/plugins/updraftplus/class-updraftplus.php)
+0150.287 (0) Table VVDBI_options: Total expected rows (via COUNT): 658
+0150.406 (0) Table VVDBI_options: Rows added in this batch (next record: 1741398): 654 (uncompressed bytes in this segment=5454140) in 0.13 seconds
+0150.420 (0) Table VVDBI_options: finishing file(s) (2, 437.1 KB)
+0150.428 (0) Table VVDBI_users: Total expected rows (via COUNT): 1
+0150.430 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0150.436 (0) Table VVDBI_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1270) in 0.01 seconds
+0150.446 (0) Table VVDBI_users: finishing file(s) (2, 0.6 KB)
+0150.456 (0) Table VVDBI_usermeta: Total expected rows (via COUNT): 62
+0150.459 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0150.466 (0) Table VVDBI_usermeta: Rows added in this batch (next record: 125): 62 (uncompressed bytes in this segment=26557) in 0.01 seconds
+0150.478 (0) Table VVDBI_usermeta: finishing file(s) (2, 5.8 KB)
+0150.488 (0) Table VVDBI_commentmeta: Total expected rows (via COUNT): 0
+0150.494 (0) Table VVDBI_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=666) in 0.01 seconds
+0150.507 (0) Table VVDBI_commentmeta: finishing file(s) (2, 0.4 KB)
+0150.514 (0) Table VVDBI_comments: Total expected rows (via COUNT): 0
+0150.520 (0) Table VVDBI_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1480) in 0.01 seconds
+0150.529 (0) Table VVDBI_comments: finishing file(s) (2, 0.5 KB)
+0150.547 (0) Table VVDBI_links: Total expected rows (via COUNT): 0
+0150.550 (0) Table VVDBI_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1041) in 0.00 seconds
+0150.559 (0) Table VVDBI_links: finishing file(s) (2, 0.5 KB)
+0152.671 (0) Table VVDBI_postmeta: Total expected rows (approximate): 15495
+0156.775 (0) Table VVDBI_postmeta: Rows added in this batch (next record: 41894): 17056 (uncompressed bytes in this segment=96947192) in 6.21 seconds
+0156.789 (0) Table VVDBI_postmeta: finishing file(s) (2, 10132.7 KB)
+0157.916 (0) Table VVDBI_posts: Total expected rows (approximate): 2832
+0159.688 (0) Table VVDBI_posts: Rows added in this batch (next record: 5865): 3627 (uncompressed bytes in this segment=43546819) in 2.89 seconds
+0159.701 (0) Table VVDBI_posts: finishing file(s) (2, 2305.3 KB)
+0159.708 (0) Table VVDBI_term_relationships: Total expected rows (approximate): 44
+0159.715 (0) Table VVDBI_term_relationships: Rows added in this batch (next record: 100000): 50 (uncompressed bytes in this segment=1468) in 0.01 seconds
+0159.724 (0) Table VVDBI_term_relationships: finishing file(s) (2, 0.6 KB)
+0159.735 (0) Table VVDBI_term_taxonomy: Total expected rows (via COUNT): 8
+0159.738 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0159.744 (0) Table VVDBI_term_taxonomy: Rows added in this batch (next record: 19): 8 (uncompressed bytes in this segment=1151) in 0.01 seconds
+0159.756 (0) Table VVDBI_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0159.766 (0) Table VVDBI_termmeta: Total expected rows (via COUNT): 2
+0159.769 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0159.772 (0) Table VVDBI_termmeta: Rows added in this batch (next record: 11): 2 (uncompressed bytes in this segment=767) in 0.01 seconds
+0159.785 (0) Table VVDBI_termmeta: finishing file(s) (2, 0.4 KB)
+0159.792 (0) Table VVDBI_terms: Total expected rows (via COUNT): 8
+0159.795 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0159.798 (0) Table VVDBI_terms: Rows added in this batch (next record: 19): 8 (uncompressed bytes in this segment=1427) in 0.01 seconds
+0159.807 (0) Table VVDBI_terms: finishing file(s) (2, 0.7 KB)
+0159.827 (0) Table VVDBI_actionscheduler_actions: Total expected rows (via COUNT): 108
+0159.830 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0159.838 (0) Table VVDBI_actionscheduler_actions: Rows added in this batch (next record: 5972): 108 (uncompressed bytes in this segment=55182) in 0.02 seconds
+0159.850 (0) Table VVDBI_actionscheduler_actions: finishing file(s) (2, 3.9 KB)
+0159.859 (0) Table VVDBI_actionscheduler_claims: Total expected rows (via COUNT): 0
+0159.865 (0) Table VVDBI_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=651) in 0.01 seconds
+0159.874 (0) Table VVDBI_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0159.883 (0) Table VVDBI_actionscheduler_groups: Total expected rows (via COUNT): 3
+0159.886 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0159.892 (0) Table VVDBI_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=708) in 0.01 seconds
+0159.901 (0) Table VVDBI_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0159.910 (0) Table VVDBI_actionscheduler_logs: Total expected rows (via COUNT): 311
+0159.913 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0159.921 (0) Table VVDBI_actionscheduler_logs: Rows added in this batch (next record: 17651): 311 (uncompressed bytes in this segment=28757) in 0.01 seconds
+0159.931 (0) Table VVDBI_actionscheduler_logs: finishing file(s) (2, 3.5 KB)
+0159.943 (0) Table VVDBI_aioseo_notifications: Total expected rows (via COUNT): 2
+0159.946 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0159.952 (0) Table VVDBI_aioseo_notifications: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=2910) in 0.01 seconds
+0159.964 (0) Table VVDBI_aioseo_notifications: finishing file(s) (2, 1.3 KB)
+0159.978 (0) Table VVDBI_aioseo_posts: Total expected rows (via COUNT): 22
+0159.981 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0159.986 (0) Table VVDBI_aioseo_posts: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=50585) in 0.01 seconds
+0159.998 (0) Table VVDBI_aioseo_posts: finishing file(s) (2, 4.2 KB)
+0160.007 (0) Table VVDBI_e_events: Total expected rows (via COUNT): 0
+0160.013 (0) Table VVDBI_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=525) in 0.01 seconds
+0160.022 (0) Table VVDBI_e_events: finishing file(s) (2, 0.3 KB)
+0160.031 (0) Table VVDBI_hustle_entries: Total expected rows (via COUNT): 0
+0160.034 (0) Table VVDBI_hustle_entries: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=686) in 0.00 seconds
+0160.044 (0) Table VVDBI_hustle_entries: finishing file(s) (2, 0.4 KB)
+0160.056 (0) Table VVDBI_hustle_entries_meta: Total expected rows (via COUNT): 0
+0160.062 (0) Table VVDBI_hustle_entries_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=861) in 0.01 seconds
+0160.075 (0) Table VVDBI_hustle_entries_meta: finishing file(s) (2, 0.4 KB)
+0160.083 (0) Table VVDBI_hustle_modules: Total expected rows (via COUNT): 0
+0160.089 (0) Table VVDBI_hustle_modules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=695) in 0.01 seconds
+0160.099 (0) Table VVDBI_hustle_modules: finishing file(s) (2, 0.4 KB)
+0160.111 (0) Table VVDBI_hustle_modules_meta: Total expected rows (via COUNT): 0
+0160.117 (0) Table VVDBI_hustle_modules_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.01 seconds
+0160.129 (0) Table VVDBI_hustle_modules_meta: finishing file(s) (2, 0.4 KB)
+0160.138 (0) Table VVDBI_hustle_tracking: Total expected rows (via COUNT): 0
+0160.144 (0) Table VVDBI_hustle_tracking: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1109) in 0.01 seconds
+0160.153 (0) Table VVDBI_hustle_tracking: finishing file(s) (2, 0.5 KB)
+0160.162 (0) Table VVDBI_nextend2_image_storage: Total expected rows (via COUNT): 9
+0160.165 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.171 (0) Table VVDBI_nextend2_image_storage: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=2485) in 0.01 seconds
+0160.180 (0) Table VVDBI_nextend2_image_storage: finishing file(s) (2, 0.9 KB)
+0160.188 (0) Table VVDBI_nextend2_section_storage: Total expected rows (via COUNT): 5
+0160.191 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.194 (0) Table VVDBI_nextend2_section_storage: Rows added in this batch (next record: 12063): 5 (uncompressed bytes in this segment=1373) in 0.01 seconds
+0160.203 (0) Table VVDBI_nextend2_section_storage: finishing file(s) (2, 0.6 KB)
+0160.211 (0) Table VVDBI_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+0160.217 (0) Table VVDBI_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=639) in 0.01 seconds
+0160.226 (0) Table VVDBI_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0160.234 (0) Table VVDBI_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 2
+0160.237 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.245 (0) Table VVDBI_nextend2_smartslider3_sliders: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=29313) in 0.01 seconds
+0160.254 (0) Table VVDBI_nextend2_smartslider3_sliders: finishing file(s) (2, 4.3 KB)
+0160.262 (0) Table VVDBI_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0160.268 (0) Table VVDBI_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=747) in 0.01 seconds
+0160.278 (0) Table VVDBI_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0160.291 (0) Table VVDBI_nextend2_smartslider3_slides: Total expected rows (via COUNT): 5
+0160.294 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.300 (0) Table VVDBI_nextend2_smartslider3_slides: Rows added in this batch (next record: 13): 5 (uncompressed bytes in this segment=37976) in 0.01 seconds
+0160.313 (0) Table VVDBI_nextend2_smartslider3_slides: finishing file(s) (2, 3.5 KB)
+0160.326 (0) Table VVDBI_nf3_action_meta: Total expected rows (via COUNT): 132
+0160.329 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.336 (0) Table VVDBI_nf3_action_meta: Rows added in this batch (next record: 132): 132 (uncompressed bytes in this segment=11266) in 0.01 seconds
+0160.349 (0) Table VVDBI_nf3_action_meta: finishing file(s) (2, 2 KB)
+0160.361 (0) Table VVDBI_nf3_actions: Total expected rows (via COUNT): 7
+0160.364 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.370 (0) Table VVDBI_nf3_actions: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1540) in 0.01 seconds
+0160.383 (0) Table VVDBI_nf3_actions: finishing file(s) (2, 0.7 KB)
+0160.394 (0) Table VVDBI_nf3_chunks: Total expected rows (via COUNT): 0
+0160.400 (0) Table VVDBI_nf3_chunks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=489) in 0.01 seconds
+0160.412 (0) Table VVDBI_nf3_chunks: finishing file(s) (2, 0.3 KB)
+0160.425 (0) Table VVDBI_nf3_field_meta: Total expected rows (via COUNT): 387
+0160.428 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.436 (0) Table VVDBI_nf3_field_meta: Rows added in this batch (next record: 405): 387 (uncompressed bytes in this segment=38319) in 0.02 seconds
+0160.448 (0) Table VVDBI_nf3_field_meta: finishing file(s) (2, 4.7 KB)
+0160.460 (0) Table VVDBI_nf3_fields: Total expected rows (via COUNT): 11
+0160.462 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.469 (0) Table VVDBI_nf3_fields: Rows added in this batch (next record: 12): 11 (uncompressed bytes in this segment=3087) in 0.01 seconds
+0160.481 (0) Table VVDBI_nf3_fields: finishing file(s) (2, 1 KB)
+0160.492 (0) Table VVDBI_nf3_form_meta: Total expected rows (via COUNT): 131
+0160.495 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.502 (0) Table VVDBI_nf3_form_meta: Rows added in this batch (next record: 131): 131 (uncompressed bytes in this segment=11499) in 0.01 seconds
+0160.513 (0) Table VVDBI_nf3_form_meta: finishing file(s) (2, 2.2 KB)
+0160.525 (0) Table VVDBI_nf3_forms: Total expected rows (via COUNT): 2
+0160.527 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.533 (0) Table VVDBI_nf3_forms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1348) in 0.01 seconds
+0160.545 (0) Table VVDBI_nf3_forms: finishing file(s) (2, 0.6 KB)
+0160.556 (0) Table VVDBI_nf3_object_meta: Total expected rows (via COUNT): 0
+0160.562 (0) Table VVDBI_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=616) in 0.01 seconds
+0160.574 (0) Table VVDBI_nf3_object_meta: finishing file(s) (2, 0.3 KB)
+0160.585 (0) Table VVDBI_nf3_objects: Total expected rows (via COUNT): 0
+0160.591 (0) Table VVDBI_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=662) in 0.01 seconds
+0160.603 (0) Table VVDBI_nf3_objects: finishing file(s) (2, 0.4 KB)
+0160.614 (0) Table VVDBI_nf3_relationships: Total expected rows (via COUNT): 0
+0160.617 (0) Table VVDBI_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=725) in 0.01 seconds
+0160.628 (0) Table VVDBI_nf3_relationships: finishing file(s) (2, 0.4 KB)
+0160.640 (0) Table VVDBI_nf3_upgrades: Total expected rows (via COUNT): 2
+0160.643 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.650 (0) Table VVDBI_nf3_upgrades: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=33918) in 0.01 seconds
+0160.662 (0) Table VVDBI_nf3_upgrades: finishing file(s) (2, 4.7 KB)
+0160.671 (0) Table VVDBI_origincode_videogallery_galleries: Total expected rows (via COUNT): 1
+0160.674 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.677 (0) Table VVDBI_origincode_videogallery_galleries: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1300) in 0.01 seconds
+0160.686 (0) Table VVDBI_origincode_videogallery_galleries: finishing file(s) (2, 0.6 KB)
+0160.695 (0) Table VVDBI_origincode_videoorigincode_gallery_videos: Total expected rows (via COUNT): 8
+0160.698 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.701 (0) Table VVDBI_origincode_videoorigincode_gallery_videos: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=5310) in 0.01 seconds
+0160.710 (0) Table VVDBI_origincode_videoorigincode_gallery_videos: finishing file(s) (2, 2.2 KB)
+0160.718 (0) Table VVDBI_post_views: Total expected rows (approximate): 47
+0160.724 (0) Table VVDBI_post_views: Rows added in this batch (next record: 1000): 47 (uncompressed bytes in this segment=1902) in 0.01 seconds
+0160.734 (0) Table VVDBI_post_views: finishing file(s) (2, 0.6 KB)
+0160.747 (0) Table VVDBI_presto_player_audio_presets: Total expected rows (via COUNT): 4
+0160.750 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.756 (0) Table VVDBI_presto_player_audio_presets: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=2901) in 0.01 seconds
+0160.768 (0) Table VVDBI_presto_player_audio_presets: finishing file(s) (2, 0.8 KB)
+0160.777 (0) Table VVDBI_presto_player_email_collection: Total expected rows (via COUNT): 0
+0160.783 (0) Table VVDBI_presto_player_email_collection: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1306) in 0.01 seconds
+0160.792 (0) Table VVDBI_presto_player_email_collection: finishing file(s) (2, 0.5 KB)
+0160.804 (0) Table VVDBI_presto_player_presets: Total expected rows (via COUNT): 5
+0160.807 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.814 (0) Table VVDBI_presto_player_presets: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=3712) in 0.01 seconds
+0160.826 (0) Table VVDBI_presto_player_presets: finishing file(s) (2, 1 KB)
+0160.835 (0) Table VVDBI_presto_player_videos: Total expected rows (via COUNT): 1
+0160.838 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0160.841 (0) Table VVDBI_presto_player_videos: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1531) in 0.01 seconds
+0160.851 (0) Table VVDBI_presto_player_videos: finishing file(s) (2, 0.7 KB)
+0160.860 (0) Table VVDBI_presto_player_visits: Total expected rows (via COUNT): 0
+0160.866 (0) Table VVDBI_presto_player_visits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=996) in 0.01 seconds
+0160.876 (0) Table VVDBI_presto_player_visits: finishing file(s) (2, 0.5 KB)
+0160.885 (0) Table VVDBI_qss: Total expected rows (via COUNT): 0
+0160.888 (0) Table VVDBI_qss: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=881) in 0.00 seconds
+0160.897 (0) Table VVDBI_qss: finishing file(s) (2, 0.4 KB)
+0160.905 (0) Table VVDBI_sgpb_subscribers: Total expected rows (via COUNT): 0
+0160.908 (0) Table VVDBI_sgpb_subscribers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.00 seconds
+0160.918 (0) Table VVDBI_sgpb_subscribers: finishing file(s) (2, 0.4 KB)
+0160.926 (0) Table VVDBI_sgpb_subscription_error_log: Total expected rows (via COUNT): 0
+0160.929 (0) Table VVDBI_sgpb_subscription_error_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=673) in 0.00 seconds
+0160.938 (0) Table VVDBI_sgpb_subscription_error_log: finishing file(s) (2, 0.4 KB)
+0160.946 (0) Table VVDBI_statistics_events: Total expected rows (via COUNT): 0
+0160.949 (0) Table VVDBI_statistics_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=782) in 0.00 seconds
+0160.959 (0) Table VVDBI_statistics_events: finishing file(s) (2, 0.4 KB)
+0160.967 (0) Table VVDBI_statistics_exclusions: Total expected rows (via COUNT): 0
+0160.970 (0) Table VVDBI_statistics_exclusions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.00 seconds
+0160.979 (0) Table VVDBI_statistics_exclusions: finishing file(s) (2, 0.4 KB)
+0160.987 (0) Table VVDBI_statistics_historical: Total expected rows (via COUNT): 0
+0160.990 (0) Table VVDBI_statistics_historical: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=795) in 0.00 seconds
+0160.999 (0) Table VVDBI_statistics_historical: finishing file(s) (2, 0.4 KB)
+0161.008 (0) Table VVDBI_statistics_pages: Total expected rows (approximate): 22494
+0161.252 (0) Table VVDBI_statistics_pages: Rows added in this batch (next record: 27429): 22724 (uncompressed bytes in this segment=2901737) in 0.25 seconds
+0161.263 (0) Table VVDBI_statistics_pages: finishing file(s) (2, 342.9 KB)
+0161.271 (0) Table VVDBI_statistics_useronline: Total expected rows (via COUNT): 0
+0161.275 (0) Table VVDBI_statistics_useronline: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1441) in 0.01 seconds
+0161.285 (0) Table VVDBI_statistics_useronline: finishing file(s) (2, 0.5 KB)
+0161.294 (0) Table VVDBI_statistics_visitor: Total expected rows (approximate): 83923
+0163.383 (0) Table VVDBI_statistics_visitor: Rows added in this batch (next record: 100044): 100000 (uncompressed bytes in this segment=24043225) in 2.09 seconds
+0163.451 (0) Table VVDBI_statistics_visitor: Total expected rows (via COUNT): 107243
+0163.637 (0) Table VVDBI_statistics_visitor: Rows added in this batch (next record: 107293): 7243 (uncompressed bytes in this segment=1665725) in 0.24 seconds
+0163.647 (0) Table VVDBI_statistics_visitor: finishing file(s) (3, 2205.9 KB)
+0163.656 (0) Table VVDBI_statistics_visitor_relationships: Total expected rows (approximate): 44022
+0163.960 (0) Table VVDBI_statistics_visitor_relationships: Rows added in this batch (next record: 44264): 44264 (uncompressed bytes in this segment=2081670) in 0.30 seconds
+0163.970 (0) Table VVDBI_statistics_visitor_relationships: finishing file(s) (2, 431.1 KB)
+0163.984 (0) Table VVDBI_wpforms_logs: Total expected rows (via COUNT): 7
+0163.987 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0163.993 (0) Table VVDBI_wpforms_logs: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1477) in 0.01 seconds
+0164.005 (0) Table VVDBI_wpforms_logs: finishing file(s) (2, 0.5 KB)
+0164.018 (0) Table VVDBI_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0164.024 (0) Table VVDBI_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=708) in 0.01 seconds
+0164.036 (0) Table VVDBI_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0164.045 (0) Table VVDBI_wpforms_payments: Total expected rows (via COUNT): 0
+0164.051 (0) Table VVDBI_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1668) in 0.01 seconds
+0164.060 (0) Table VVDBI_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0164.072 (0) Table VVDBI_wpforms_tasks_meta: Total expected rows (via COUNT): 8
+0164.075 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0164.081 (0) Table VVDBI_wpforms_tasks_meta: Rows added in this batch (next record: 308): 8 (uncompressed bytes in this segment=1251) in 0.01 seconds
+0164.093 (0) Table VVDBI_wpforms_tasks_meta: finishing file(s) (2, 0.6 KB)
+0164.108 (0) Table VVDBI_yoast_indexable: Total expected rows (via COUNT): 81
+0164.112 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0164.122 (0) Table VVDBI_yoast_indexable: Rows added in this batch (next record: 1000): 81 (uncompressed bytes in this segment=80286) in 0.02 seconds
+0164.136 (0) Table VVDBI_yoast_indexable: finishing file(s) (2, 12.5 KB)
+0164.145 (0) Table VVDBI_yoast_indexable_hierarchy: Total expected rows (approximate): 73
+0164.151 (0) Table VVDBI_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 74 (uncompressed bytes in this segment=2064) in 0.01 seconds
+0164.160 (0) Table VVDBI_yoast_indexable_hierarchy: finishing file(s) (2, 0.6 KB)
+0164.169 (0) Table VVDBI_yoast_migrations: Total expected rows (via COUNT): 24
+0164.172 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0164.178 (0) Table VVDBI_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1257) in 0.01 seconds
+0164.187 (0) Table VVDBI_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0164.196 (0) Table VVDBI_yoast_primary_term: Total expected rows (via COUNT): 14
+0164.199 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0164.202 (0) Table VVDBI_yoast_primary_term: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=1978) in 0.01 seconds
+0164.212 (0) Table VVDBI_yoast_primary_term: finishing file(s) (2, 0.8 KB)
+0164.219 (0) Table VVDBI_yoast_seo_links: Total expected rows (via COUNT): 464
+0164.222 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0164.237 (0) Table VVDBI_yoast_seo_links: Rows added in this batch (next record: 14578): 464 (uncompressed bytes in this segment=99856) in 0.02 seconds
+0164.246 (0) Table VVDBI_yoast_seo_links: finishing file(s) (2, 15.5 KB)
+0164.249 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/vhosts/xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/httpdocs/wp-content/updraft/backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0164.253 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_options.table.tmpr1741399.gz (1/68/fopen): adding to final database dump
+0164.260 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_options.table.gz (2/68/fopen): adding to final database dump
+0164.263 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_users.table.tmpr2.gz (3/68/fopen): adding to final database dump
+0164.266 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_users.table.gz (4/68/fopen): adding to final database dump
+0164.268 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_usermeta.table.tmpr126.gz (5/68/fopen): adding to final database dump
+0164.271 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_usermeta.table.gz (6/68/fopen): adding to final database dump
+0164.274 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_commentmeta.table.tmpr0.gz (7/68/fopen): adding to final database dump
+0164.277 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_commentmeta.table.gz (8/68/fopen): adding to final database dump
+0164.280 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_comments.table.tmpr0.gz (9/68/fopen): adding to final database dump
+0164.283 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_comments.table.gz (10/68/fopen): adding to final database dump
+0164.286 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_links.table.tmpr0.gz (11/68/fopen): adding to final database dump
+0164.289 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_links.table.gz (12/68/fopen): adding to final database dump
+0164.291 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_postmeta.table.tmpr41895.gz (13/68/fopen): adding to final database dump
+0164.386 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_postmeta.table.gz (14/68/fopen): adding to final database dump
+0164.390 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_posts.table.tmpr5866.gz (15/68/fopen): adding to final database dump
+0164.415 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_posts.table.gz (16/68/fopen): adding to final database dump
+0164.418 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_term_relationships.table.tmpr100001.gz (17/68/fopen): adding to final database dump
+0164.421 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_term_relationships.table.gz (18/68/fopen): adding to final database dump
+0164.423 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_term_taxonomy.table.tmpr20.gz (19/68/fopen): adding to final database dump
+0164.426 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_term_taxonomy.table.gz (20/68/fopen): adding to final database dump
+0164.429 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_termmeta.table.tmpr12.gz (21/68/fopen): adding to final database dump
+0164.432 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_termmeta.table.gz (22/68/fopen): adding to final database dump
+0164.435 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_terms.table.tmpr20.gz (23/68/fopen): adding to final database dump
+0164.437 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_terms.table.gz (24/68/fopen): adding to final database dump
+0164.440 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_actionscheduler_actions.table.tmpr5973.gz (25/68/fopen): adding to final database dump
+0164.443 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_actionscheduler_actions.table.gz (26/68/fopen): adding to final database dump
+0164.446 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_actionscheduler_claims.table.tmpr0.gz (27/68/fopen): adding to final database dump
+0164.448 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_actionscheduler_claims.table.gz (28/68/fopen): adding to final database dump
+0164.451 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_actionscheduler_groups.table.tmpr4.gz (29/68/fopen): adding to final database dump
+0164.454 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_actionscheduler_groups.table.gz (30/68/fopen): adding to final database dump
+0164.456 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_actionscheduler_logs.table.tmpr17652.gz (31/68/fopen): adding to final database dump
+0164.459 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_actionscheduler_logs.table.gz (32/68/fopen): adding to final database dump
+0164.462 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_aioseo_notifications.table.tmpr4.gz (33/68/fopen): adding to final database dump
+0164.465 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_aioseo_notifications.table.gz (34/68/fopen): adding to final database dump
+0164.467 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_aioseo_posts.table.tmpr23.gz (35/68/fopen): adding to final database dump
+0164.470 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_aioseo_posts.table.gz (36/68/fopen): adding to final database dump
+0164.473 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_e_events.table.tmpr0.gz (37/68/fopen): adding to final database dump
+0164.476 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_e_events.table.gz (38/68/fopen): adding to final database dump
+0164.478 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_hustle_entries.table.tmpr0.gz (39/68/fopen): adding to final database dump
+0164.481 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_hustle_entries.table.gz (40/68/fopen): adding to final database dump
+0164.484 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_hustle_entries_meta.table.tmpr0.gz (41/68/fopen): adding to final database dump
+0164.486 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_hustle_entries_meta.table.gz (42/68/fopen): adding to final database dump
+0164.489 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_hustle_modules.table.tmpr0.gz (43/68/fopen): adding to final database dump
+0164.492 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_hustle_modules.table.gz (44/68/fopen): adding to final database dump
+0164.494 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_hustle_modules_meta.table.tmpr0.gz (45/68/fopen): adding to final database dump
+0164.497 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_hustle_modules_meta.table.gz (46/68/fopen): adding to final database dump
+0164.500 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_hustle_tracking.table.tmpr0.gz (47/68/fopen): adding to final database dump
+0164.503 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_hustle_tracking.table.gz (48/68/fopen): adding to final database dump
+0164.506 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nextend2_image_storage.table.tmpr10.gz (49/68/fopen): adding to final database dump
+0164.509 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nextend2_image_storage.table.gz (50/68/fopen): adding to final database dump
+0164.512 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nextend2_section_storage.table.tmpr12064.gz (51/68/fopen): adding to final database dump
+0164.514 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nextend2_section_storage.table.gz (52/68/fopen): adding to final database dump
+0164.517 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nextend2_smartslider3_generators.table.tmpr0.gz (53/68/fopen): adding to final database dump
+0164.520 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nextend2_smartslider3_generators.table.gz (54/68/fopen): adding to final database dump
+0164.522 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nextend2_smartslider3_sliders.table.tmpr3.gz (55/68/fopen): adding to final database dump
+0164.525 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nextend2_smartslider3_sliders.table.gz (56/68/fopen): adding to final database dump
+0164.528 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (57/68/fopen): adding to final database dump
+0164.530 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nextend2_smartslider3_sliders_xref.table.gz (58/68/fopen): adding to final database dump
+0164.533 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nextend2_smartslider3_slides.table.tmpr14.gz (59/68/fopen): adding to final database dump
+0164.536 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nextend2_smartslider3_slides.table.gz (60/68/fopen): adding to final database dump
+0164.539 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_action_meta.table.tmpr133.gz (61/68/fopen): adding to final database dump
+0164.542 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_action_meta.table.gz (62/68/fopen): adding to final database dump
+0164.544 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_actions.table.tmpr8.gz (63/68/fopen): adding to final database dump
+0164.547 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_actions.table.gz (64/68/fopen): adding to final database dump
+0164.550 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_chunks.table.tmpr0.gz (65/68/fopen): adding to final database dump
+0164.553 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_chunks.table.gz (66/68/fopen): adding to final database dump
+0164.556 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_field_meta.table.tmpr406.gz (67/68/fopen): adding to final database dump
+0164.558 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_field_meta.table.gz (68/68/fopen): adding to final database dump
+0164.561 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_fields.table.tmpr13.gz (69/68/fopen): adding to final database dump
+0164.564 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_fields.table.gz (70/68/fopen): adding to final database dump
+0164.567 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_form_meta.table.tmpr132.gz (71/68/fopen): adding to final database dump
+0164.569 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_form_meta.table.gz (72/68/fopen): adding to final database dump
+0164.572 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_forms.table.tmpr3.gz (73/68/fopen): adding to final database dump
+0164.575 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_forms.table.gz (74/68/fopen): adding to final database dump
+0164.578 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_object_meta.table.tmpr0.gz (75/68/fopen): adding to final database dump
+0164.580 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_object_meta.table.gz (76/68/fopen): adding to final database dump
+0164.583 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_objects.table.tmpr0.gz (77/68/fopen): adding to final database dump
+0164.586 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_objects.table.gz (78/68/fopen): adding to final database dump
+0164.588 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_relationships.table.tmpr0.gz (79/68/fopen): adding to final database dump
+0164.591 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_relationships.table.gz (80/68/fopen): adding to final database dump
+0164.594 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_upgrades.table.tmpr3.gz (81/68/fopen): adding to final database dump
+0164.596 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_nf3_upgrades.table.gz (82/68/fopen): adding to final database dump
+0164.599 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_origincode_videogallery_galleries.table.tmpr2.gz (83/68/fopen): adding to final database dump
+0164.602 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_origincode_videogallery_galleries.table.gz (84/68/fopen): adding to final database dump
+0164.605 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_origincode_videoorigincode_gallery_videos.table.tmpr9.gz (85/68/fopen): adding to final database dump
+0164.607 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_origincode_videoorigincode_gallery_videos.table.gz (86/68/fopen): adding to final database dump
+0164.610 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_post_views.table.tmpr1001.gz (87/68/fopen): adding to final database dump
+0164.613 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_post_views.table.gz (88/68/fopen): adding to final database dump
+0164.615 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_presto_player_audio_presets.table.tmpr5.gz (89/68/fopen): adding to final database dump
+0164.618 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_presto_player_audio_presets.table.gz (90/68/fopen): adding to final database dump
+0164.621 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_presto_player_email_collection.table.tmpr0.gz (91/68/fopen): adding to final database dump
+0164.624 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_presto_player_email_collection.table.gz (92/68/fopen): adding to final database dump
+0164.626 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_presto_player_presets.table.tmpr6.gz (93/68/fopen): adding to final database dump
+0164.629 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_presto_player_presets.table.gz (94/68/fopen): adding to final database dump
+0164.632 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_presto_player_videos.table.tmpr2.gz (95/68/fopen): adding to final database dump
+0164.634 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_presto_player_videos.table.gz (96/68/fopen): adding to final database dump
+0164.637 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_presto_player_visits.table.tmpr0.gz (97/68/fopen): adding to final database dump
+0164.640 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_presto_player_visits.table.gz (98/68/fopen): adding to final database dump
+0164.642 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_qss.table.tmpr0.gz (99/68/fopen): adding to final database dump
+0164.648 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_qss.table.gz (100/68/fopen): adding to final database dump
+0164.651 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_sgpb_subscribers.table.tmpr0.gz (101/68/fopen): adding to final database dump
+0164.653 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_sgpb_subscribers.table.gz (102/68/fopen): adding to final database dump
+0164.656 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_sgpb_subscription_error_log.table.tmpr0.gz (103/68/fopen): adding to final database dump
+0164.659 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_sgpb_subscription_error_log.table.gz (104/68/fopen): adding to final database dump
+0164.661 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_events.table.tmpr0.gz (105/68/fopen): adding to final database dump
+0164.664 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_events.table.gz (106/68/fopen): adding to final database dump
+0164.667 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_exclusions.table.tmpr0.gz (107/68/fopen): adding to final database dump
+0164.669 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_exclusions.table.gz (108/68/fopen): adding to final database dump
+0164.672 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_historical.table.tmpr0.gz (109/68/fopen): adding to final database dump
+0164.675 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_historical.table.gz (110/68/fopen): adding to final database dump
+0164.678 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_pages.table.tmpr27430.gz (111/68/fopen): adding to final database dump
+0164.684 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_pages.table.gz (112/68/fopen): adding to final database dump
+0164.686 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_useronline.table.tmpr0.gz (113/68/fopen): adding to final database dump
+0164.689 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_useronline.table.gz (114/68/fopen): adding to final database dump
+0164.692 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_visitor.table.tmpr100044.gz (115/68/fopen): adding to final database dump
+0164.713 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_visitor.table.tmpr107294.gz (116/68/fopen): adding to final database dump
+0164.718 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_visitor.table.gz (117/68/fopen): adding to final database dump
+0164.721 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_visitor_relationships.table.tmpr44265.gz (118/68/fopen): adding to final database dump
+0164.726 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_statistics_visitor_relationships.table.gz (119/68/fopen): adding to final database dump
+0164.729 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_wpforms_logs.table.tmpr8.gz (120/68/fopen): adding to final database dump
+0164.732 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_wpforms_logs.table.gz (121/68/fopen): adding to final database dump
+0164.735 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_wpforms_payment_meta.table.tmpr0.gz (122/68/fopen): adding to final database dump
+0164.743 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_wpforms_payment_meta.table.gz (123/68/fopen): adding to final database dump
+0164.746 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_wpforms_payments.table.tmpr0.gz (124/68/fopen): adding to final database dump
+0164.749 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_wpforms_payments.table.gz (125/68/fopen): adding to final database dump
+0164.752 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_wpforms_tasks_meta.table.tmpr309.gz (126/68/fopen): adding to final database dump
+0164.755 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_wpforms_tasks_meta.table.gz (127/68/fopen): adding to final database dump
+0164.760 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_yoast_indexable.table.tmpr1001.gz (128/68/fopen): adding to final database dump
+0164.763 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_yoast_indexable.table.gz (129/68/fopen): adding to final database dump
+0164.768 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_yoast_indexable_hierarchy.table.tmpr1001.gz (130/68/fopen): adding to final database dump
+0164.771 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_yoast_indexable_hierarchy.table.gz (131/68/fopen): adding to final database dump
+0164.777 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_yoast_migrations.table.tmpr25.gz (132/68/fopen): adding to final database dump
+0164.780 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_yoast_migrations.table.gz (133/68/fopen): adding to final database dump
+0164.783 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_yoast_primary_term.table.tmpr15.gz (134/68/fopen): adding to final database dump
+0164.785 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_yoast_primary_term.table.gz (135/68/fopen): adding to final database dump
+0164.788 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_yoast_seo_links.table.tmpr14579.gz (136/68/fopen): adding to final database dump
+0164.791 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db-table-VVDBI_yoast_seo_links.table.gz (137/68/fopen): adding to final database dump
+0164.805 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db.gz: finished writing out complete database file (15949.7 KB)
+0164.963 (0) Total database tables backed up: 68 (backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db.gz, size: 16332606, sha1: 742b78f22efe24a4fb3526acabe73b53b5a0d2ee, sha256: 1a8a3e1050e3487db2a372f7d762726adb0202303e731367c374b167317f5908)
+0164.977 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip: plugins: This file has already been successfully uploaded
+0164.980 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip: themes: This file has already been successfully uploaded
+0164.982 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip: uploads: This file has already been successfully uploaded
+0164.985 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip: uploads: This file has already been successfully uploaded
+0164.988 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads3.zip: uploads: This file has already been successfully uploaded
+0164.990 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip: others: This file has already been successfully uploaded
+0164.993 (0) backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db.gz: db: This file has not yet been successfully uploaded: will queue
+0164.996 (0) Saving backup history. Total backup size: 1 GB
+0165.003 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0165.012 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0165.014 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9a54b421895ea751fabc94c0ffe26081)
+0165.597 (0) Google Drive: quota usage: used=6625.7 MB, total=15360 MB, available=8734.3 MB
+0165.601 (0) Google Drive: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db.gz: Attempting to upload to Google Drive (into folder id: 1HyN8zfJkjw-ipU-MgcK5j00RVfLDp8lL)
+0166.809 (0) Googledrive chunked upload: 6.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 19.6 / 86)
+0167.182 (0) Googledrive chunked upload: 19.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.6 / 86)
+0167.543 (0) Googledrive chunked upload: 44.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 19.6 / 86)
+0168.014 (0) Googledrive chunked upload: 96.3 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 19.6 / 86)
+0169.895 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0169.905 (0) Google Drive: OK: Archive backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db.gz uploaded in 4.3 seconds
+0169.908 (0) Recording as successfully uploaded: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db.gz
+0169.916 (0) Deleting local file: backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-db.gz: OK
+0169.922 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0169.925 (0) Number of backup sets in history: 3; groups (db): 1
+0169.928 (0) Examining (for databases) backup set with group_id=0, nonce=458d54d1f481, datestamp=1765459121 (Dec 11 2025 13:18:41)
+0169.931 (0) This backup set is the backup set just made, so will not be deleted.
+0169.931 (0) Examining (for databases) backup set with group_id=0, nonce=a9202889dfcc, datestamp=1764369617 (Nov 28 2025 22:40:17)
+0169.931 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0169.933 (0) Examining (for databases) backup set with group_id=0, nonce=fa69c38f087f, datestamp=1763764723 (Nov 21 2025 22:38:43)
+0169.933 (0) 1763764723: db: this set includes a database (backup_2025-11-22-0538_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_fa69c38f087f-db.gz); db count is now 2
+0169.933 (0) 1763764723: db: over retain limit (2); will delete this database
+0172.032 (0) Google Drive: backup_2025-11-22-0538_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_fa69c38f087f-db.gz: Deletion failed: file was not found
+0172.041 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0172.044 (0) Number of backup sets in history: 3; groups (files): 1
+0172.047 (0) Examining (for files) backup set with nonce=458d54d1f481, datestamp=1765459121 (Dec 11 2025 13:18:41)
+0172.047 (0) This backup set is the backup set just made, so will not be deleted.
+0172.050 (0) This backup set is the backup set just made, so will not be deleted.
+0172.050 (0) This backup set is the backup set just made, so will not be deleted.
+0172.050 (0) This backup set is the backup set just made, so will not be deleted.
+0172.050 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0172.052 (0) Examining (for files) backup set with nonce=a9202889dfcc, datestamp=1764369617 (Nov 28 2025 22:40:17)
+0172.052 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0172.052 (0) Examining (for files) backup set with nonce=fa69c38f087f, datestamp=1763764723 (Nov 21 2025 22:38:43)
+0172.052 (0) plugins: over retain limit (2); will delete this file entity
+0172.052 (0) themes: over retain limit (2); will delete this file entity
+0172.052 (0) uploads: over retain limit (2); will delete this file entity
+0172.052 (0) others: over retain limit (2); will delete this file entity
+0173.078 (0) Google Drive: backup_2025-11-22-0538_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_fa69c38f087f-plugins.zip: Deletion failed: file was not found
+0173.081 (0) Google Drive: backup_2025-11-22-0538_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_fa69c38f087f-themes.zip: Deletion failed: file was not found
+0173.084 (0) Google Drive: backup_2025-11-22-0538_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_fa69c38f087f-uploads.zip: Deletion failed: file was not found
+0173.087 (0) Google Drive: backup_2025-11-22-0538_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_fa69c38f087f-uploads2.zip: Deletion failed: file was not found
+0173.090 (0) Google Drive: backup_2025-11-22-0538_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_fa69c38f087f-uploads3.zip: Deletion failed: file was not found
+0173.092 (0) Google Drive: backup_2025-11-22-0538_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_fa69c38f087f-others.zip: Deletion failed: file was not found
+0173.102 (0) This backup set is now empty; will remove from history
+0173.104 (0) Deleting log file (log.fa69c38f087f.txt)
+0173.107 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0173.116 (0) Resume backup (458d54d1f481, 0): finish run
+0173.125 (0) Decremented the semaphore (fd) by 1
+0173.130 (0) Semaphore (fd) unlocked
+0173.133 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0173.144 (0) Deleting zip manifest (backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-plugins.zip.list.tmp)
+0173.147 (0) Deleting zip manifest (backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-themes.zip.list.tmp)
+0173.150 (0) Deleting zip manifest (backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads.zip.list.tmp)
+0173.152 (0) Deleting zip manifest (backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads2.zip.list.tmp)
+0173.155 (0) Deleting zip manifest (backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-uploads3.zip.list.tmp)
+0173.158 (0) Deleting zip manifest (backup_2025-12-11-2018_xn42cf1cjb3azgb8e6ab5d9ad8o5a1_458d54d1f481-others.zip.list.tmp)
+0173.161 (0) No email will/can be sent - the user has not configured an email address.
+0173.163 (0) The backup succeeded and is now complete

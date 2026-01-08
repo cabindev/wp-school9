@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Sitemap: https://xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/news/sitemap.xml
+Sitemap: https://xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/news/sitemap2.xml
+Sitemap: https://xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/news/sitemap3.xml
+Sitemap: https://xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/news/sitemap4.xml
+Sitemap: https://xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/news/sitemap5.xml
+Sitemap: https://xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/news/sitemap6.xml
+Sitemap: https://xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com/news/sitemap7.xml
