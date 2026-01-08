@@ -2,21 +2,24 @@
 
 WordPress development environment for educational project.
 
-## Local Development Setup
+## Setup Instructions
 
-### Prerequisites
-- MAMP (MySQL + Apache + PHP)
-- Git
-
-### Installation
+### Local Development Setup
 1. Clone this repository to your MAMP htdocs directory
-2. Import database (if provided)
-3. Configure `wp-config.php` for your local environment
-4. Start MAMP services
+2. Copy `wp-config-sample.php` to `wp-config.php`
+3. Configure database settings in `wp-config.php`
+4. Update URLs to localhost in `wp-config.php`
+5. Start MAMP services
 
-### Access
-- Website: http://localhost/wp-school
-- Admin: http://localhost/wp-school/wp-login.php
+### Production Deployment
+1. Upload files to server
+2. Copy `wp-config-production.php` to `wp-config.php`
+3. Update database credentials in `wp-config.php`
+4. Import database and update URLs to production domain
+
+### URLs
+- **Production**: https://post.xn--42cf1cjb3azgb8e6ab5d9ad8o5a1il1h.com
+- **Local**: http://localhost/wp-school
 
 ### Login Credentials
 - Username: `admin` or `yellow_tm`
