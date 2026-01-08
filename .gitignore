@@ -2,6 +2,9 @@
 wp-config.php
 wp-config-local.php
 
+# Allow production template
+!wp-config-production.php
+
 # Uploads and Cache
 wp-content/uploads/
 wp-content/cache/
